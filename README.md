@@ -37,6 +37,7 @@
 ## 🐧 **Linux 版本部署**
 
 ### 📂 **创建配置目录**
+
 在运行程序前，先 **手动配置服务端信息**。  
 使用以下命令 **创建 /etc/sdwan 目录**：
 bash
@@ -45,6 +46,7 @@ sudo vim /etc/sdwan/iwan.conf
 
 
 ### ⚙️ **创建配置文件**
+
 bash
 [iwan0]
 server=对端ip
