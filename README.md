@@ -43,3 +43,53 @@
 使用以下命令 **创建 `/etc/sdwan` 目录**：
 ```sh
 sudo mkdir /etc/sdwan
+
+然后在 `/etc/sdwan/` 目录下创建 `iwan.conf` 配置文件：
+
+```bash
+sudo vim /etc/sdwan/iwan.conf
+```
+
+**配置文件示例：**
+
+```
+[iwan0]
+server=对端ip
+username=登录账号名
+password=密码
+port=对端端口
+mtu=最大传输单元
+encrypt=是否加密：0为不加密，1为加密
+```
+
+### 2. 上传程序
+
+通过 `scp` 工具上传文件到后台。
+
+### 3. 赋予执行权限
+
+```bash
+chmod +x /root/sdwand
+```
+
+### 4. 运行程序
+
+```bash
+/root/sdwand &
+```
+
+### 5. 配置网络
+
+运行 `ifconfig` 可以看到添加的 `iwan0` 接口，并且会自动分配IP。
+
+### 6. 添加静态路由
+
+添加走 iwan 网段的静态路由：
+
+```bash
+route add –net x.x.x.x/nn dev iwan0
+```
+
+---
+
+
