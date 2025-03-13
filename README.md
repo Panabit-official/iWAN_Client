@@ -44,8 +44,7 @@ sudo mkdir /etc/sdwan
 sudo vim /etc/sdwan/iwan.conf
 ```
 
-**配置文件示例：**
-
+### ⚙️ **创建配置文件**
 ```
 [iwan0]
 server=对端ip
@@ -72,7 +71,7 @@ chmod +x /root/sdwand
 /root/sdwand &
 ```
 
-###  🔍 **配置网络**
+###  🔍 **验证-iwan0-设备**
 
 运行 `ifconfig` 可以看到添加的 `iwan0` 接口，并且会自动分配IP。
 
