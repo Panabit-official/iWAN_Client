@@ -100,4 +100,8 @@ route add –net x.x.x.x/nn dev iwan0
 ```
 
 ---
-[🔝 返回目录](#-目录)  
+
+📢 **更多信息**  
+🔗 访问官网：[www.panabit.com](https://www.panabit.com/)  
+🔗 访问论坛：[bbs.panabit.com](https://bbs.panabit.com/)  
+📞 联系我们，获取更详细的解决方案！
