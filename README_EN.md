@@ -104,8 +104,7 @@ route add –net x.x.x.x/nn dev iwan0
 📢 **More Information**  
 🔗 Visit our website: [www.panabit.com](https://www.panabit.com/)  
 🔗 Join our forum: [bbs.panabit.com](https://bbs.panabit.com/)  
-
-📧 Technical support email: support@panabit.com  
+🔗 Technical support email: support@panabit.com  
 
 📞 Contact us for more detailed solutions!
 
