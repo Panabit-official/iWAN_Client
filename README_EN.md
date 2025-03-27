@@ -12,7 +12,7 @@
 
 ---
 
-# 🚀 **Panabit SD-WAN Client Official Release!**
+# 🚀 **Panabit SD-WAN Client Officially Released!**
 
 🔹 Panabit **SD-WAN** was previously used mainly for **site-to-site VPN connectivity**, requiring Panabit devices on both ends.  
 🔹 Now, the **brand-new** Windows and Linux clients are available, allowing computers to **connect to the SD-WAN network directly!**  
